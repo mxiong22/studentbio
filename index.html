@@ -13,13 +13,13 @@
 <body>
 
     <!--NavBar-->
+
     <header>
         <h2>Moony Xiong</h2>
         <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work</a>
-            <a href="#contactme">Contact Me</a>
-            <a href="#" download >Resume</a>
+            <a class="buttons" href="#about">About Me</a>
+            <a class="buttons" href="#work">Work</a>
+            <a class="buttons" href="#contactme">Contact Me</a>
         </nav>
     </header>
 
@@ -28,14 +28,20 @@
     <!--Body-->
 
     <main>
-        <section id="about" class="Aboutme">
+        <section id="aboutme" class="aboutme">
             <h1>About Me</h1>
 
-            <div>
+            <div class="aboutcontext">
+                <img id="headshot" src="./assets/image0.jpeg" alt="headshot" />
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dignissimos est error doloremque
-                    consequatur reprehenderit iusto tenetur quasi facere? Necessitatibus molestias quaerat neque quasi
-                    incidunt, doloremque maxime voluptas excepturi perferendis.
+                    Hello, I'm Moony Xiong. I have a background in social services and non-profit organizations.
+                    I am a current full stack web development student at the University of Minnesota and
+                    a Housing Case Manager at Handy Help LLC. I am excited to apply my new web development
+                    skills to my current passion of working with non-profit organizations!
+                    <br>
+                    Some things that I enjoy in my free time include the outdoors, traveling, fostering
+                    animals, trying new foods, and watching movies.
+
 
                 </p>
             </div>
@@ -47,24 +53,46 @@
 
         <section id="work" class="work">
             <h1>Work</h1>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti blanditiis quo sequi labore enim
-                    fuga perferendis, distinctio, eveniet nulla cumque architecto, amet eum repellendus quae. Enim
-                    distinctio repellat iste aut.
 
-                </p>
+            <div >
+                <section class="work">
+                    <h3>Project 1</h3>
+                    <img id="plantpiclarge" src="./assets/plant2.jpg" alt="plant placeholder">
+                    <a href="https:google.com"> Project Link Demo</a>
+                </section>
+           
+                <section class="work">
+                    <h3>Project 2</h3>
+                    <img id="plantpic" src="./assets/plant1.jpg" alt="second plant placeholder">
+                    <a href="https:google.com"> Project Link Demo</a>
+                </section>
+
+
+                <section class="work">
+                    <h3>Project 3</h3>
+                    <img id="plantpic" src="./assets/plant3.jpg" alt="third plant placeholder">
+                    <a href="https:google.com"> Project Link Demo</a>
+                </section>
+
+
+
             </div>
+
+
+
         </section>
 
         <section id="contactme" class="contactme">
             <h1>Contact Me</h1>
             <div>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquid nam ducimus explicabo,
-                    sint voluptate accusantium minus exercitationem optio vel minima unde, vero odio ad illum recusandae
-                    fugiat ullam iure!
+                <section>
 
+                    <a href="#">612-715-0928</a>
+                    <a href="mailto:moonyxiong@gmail.com">moonyxiong@gmail.com</a>
+                    <a href="https://github.com/mxiong22">GitHub</a>
+
+                </section>
                 </p>
             </div>
         </section>
@@ -74,10 +102,16 @@
 
 
     <!--Footer-->
+    <footer>
+        <p>
+            <center> Thank you for visiting! 🌙 </center>
+        </p>
 
-    
-        
+
+    </footer>
+
+
+
 </body>
 
 </html>
-
