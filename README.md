@@ -9,8 +9,7 @@ The motivation of this challege was to create a professional portfolio that pres
 None required 
 
 ## Usage 
-- Website link: https://mxiong22.github.io/website-refactor/
-![website screenshot](assets/images/websitescreenshotmain.png)
+- Website link:(https://mxiong22.github.io/studentbio/)
 
 
 
